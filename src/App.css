@@ -1,38 +1,58 @@
 .App {
   text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  margin-top: 10px; 
+  text-align: left;
+  font-family: 'Cabin Sketch', cursive;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel{
+ 
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin: 8px;
+  font-family: 'Cabin Sketch', cursive;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title{
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.slide-h1{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.polaroid {
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px 10px 30px 10px;
+  width: 300px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartoon{
+  display: inline-block;  
+}
+
+.about-section{
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0px 16px 0 16px;
+  margin-left: 16px;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+.about-title{
+  font-family: 'Cabin Sketch', cursive;
 }
